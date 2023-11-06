@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Haider Resume</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 20px;
+            text-align: center;
+        }
+
+        header {
+            background-color: #3498db;
+            color: #fff;
+            padding: 20px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .menu {
+            list-style: none;
+            padding: 0;
+            display: flex;
+        }
+
+        .menu li {
+            margin-right: 20px;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 32px;
+        }
+
+        .menu a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        .menu {
+            background-color: #3498db; 
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 20px auto;
+            border: 5px solid #3498db;
+            border-radius: 50%;
+        }
+
+        h2 {
+            font-size: 24px;
+            color: #3498db;
+        }
+
+        li {
+            margin: 10px 0;
+            list-style: none;
+        }
+
+        ol {
+            padding-left: 0;
+        }
+
+        .contact-info, .education, .skills, .work-experience {
+            width: 50%;
+            float: left;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .contact-info, .education {
+            background-color: #f9f9f9;
+        }
+
+        .education, .skills, .work-experience {
+            border-left: 2px solid #3498db;
+        }
+
+        .skills, .work-experience {
+            background-color: #f9f9f9;
+        }
+
+        .skills, .work-experience, .contact-info, .education {
+            padding: 20px;
+        }
+
+        footer {
+            background-color: #3498db;
+            color: #fff;
+            padding: 10px 0;
+            clear: both;
+        }
+    </style>
+    <script>
+        function showProjects() {
+            var projectsText = "Projects:\n\n" +
+                "- Calculator using C#\n" +
+                "- Library Management System\n" +
+                "- Periodic Table";
+
+            alert(projectsText);
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Haider Ali Shahzad</h1>
+        <ul class="menu">
+            <li><a href="#">History</a></li>
+            <li><a href="javascript:void(0);" onclick="showProjects();">Projects</a></li>
+            <li><a href="#">Location</a></li>
+            <li><a href="#">More</a></li>
+        </ul>
+    </header>
+    <img src="haider.jpg" alt="Profile picture" width="200" height="200">
+
+    <div class="contact-info">
+        <h2>Contact Info</h2>
+        <ul>
+            <li><i class="fas fa-envelope"></i>haidershahzad711@gmail.com</li>
+            <li><i class="fab fa-whatsapp"></i> +923095861840</li>
+            <li><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/haider-shahzad">haider-shahzad</a></li>
+        </ul>
+    </div>
+
+    <div class="education">
+        <h2>Education</h2>
+        <ul>
+            <li>
+                <strong>Bachelor of Science in Computer Science</strong><br>
+                University Of Sialkot, 2020-2024
+            </li>
+            <li>
+                <strong>Intermediate in Computer Science</strong><br>
+                Punjab Group of Colleges, 2018-2020
+            </li>
+            <li>
+                <strong>Matriculation</strong><br>
+                Apex Science Institute, 2016-2018
+            </li>
+        </ul>
+    </div>
+
+    <div class="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Programming</li>
+            <li>Data Entry</li>
+            <li>Verbal & Non-Verbal Communication</li>
+            <li>IT Support</li>
+            <li>Management Skills</li>
+        </ul>
+    </div>
+
+    <div class="work-experience">
+        <h2>Work Experience</h2>
+        <ul>
+            <li>
+                <strong>Database Manager</strong><br>
+                Leopards - Sialkot, Punjab
+            </li>
+            <li>
+                <strong>Junior Assistant</strong><br>
+                Reema Sons - Sialkot, Punjab
+            </li>
+        </ul>
+    </div>
+
+    <footer>
+        <p>Name: Haider Ali Shahzad</p>
+        <p>Email: haidershahzad711@gmail.com</p>
+    </footer>
+</body>
+</html>
